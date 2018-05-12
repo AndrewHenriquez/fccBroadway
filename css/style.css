@@ -1,12 +1,12 @@
 
 body {
   font-family: Helvetica;
+  text-align: center;
 }
 
 #header {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
-  text-align: center;
 }
 
 #header h1 {
@@ -17,4 +17,9 @@ body {
 #header a {
   color: white;
   font-weight: bold;
+}
+
+#newYorkBanner {
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
 }
