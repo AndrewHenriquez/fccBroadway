@@ -23,7 +23,7 @@ body {
 #header a {
   color: white;
   font-weight: bold;
-  /*While I would have normally set this to font-size 18px in accordance with the design doc, this actually resulted in a header that is SLIGHTLY larger than the header itself, causing the background image to begin tiling*/
+  font-size: 18px; 
 }
 
 #newYorkBanner {
@@ -51,10 +51,10 @@ h3 {
   background-color: dimgray;
   color: white;
   font-size: 11px;
+  text-align: left;
 }
 
 #footer a {
   color: white;
   font-size: 14px;
-  /*Again, keeping the footer text center-aligned was a personal design choice rather than lack of ability*/
 }
