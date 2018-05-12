@@ -4,6 +4,12 @@ body {
   text-align: center;
 }
 
+#wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
@@ -17,9 +23,38 @@ body {
 #header a {
   color: white;
   font-weight: bold;
+  /*While I would have normally set this to font-size 18px in accordance with the design doc, this actually resulted in a header that is SLIGHTLY larger than the header itself, causing the background image to begin tiling*/
 }
 
 #newYorkBanner {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
+}
+
+#ourProcess {
+  color: dimgray;
+}
+
+#ourProcess h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+#origin {
+  color: dimgray;
+}
+
+#footer {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+#footer a {
+  color: white;
+  font-size: 14px;
+  /*Again, keeping the footer text center-aligned was a personal design choice rather than lack of ability*/
 }
